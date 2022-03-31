@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "name": "Punam",
+      "email": "punam@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "xyz",
+      "email": "xyz@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "id": 3
+    }
+  ],
+  "journal": [
+    {
+      "concept": "Flexbox",
+      "entry": "I tried to have an element in my Flexbox layout also be another Flexbox layout. It hurt my brain. I hate Steve.\n        \n        ",
+      "userId": 1,
+      "mood": "OK",
+      "date": "2022-02-21",
+      "id": 2
+    },
+    {
+      "concept": "Event listener",
+      "entry": "Learned how to add an event listener for different events.\n        \n        \n        ",
+      "userId": 1,
+      "mood": "Happy",
+      "date": "2022-03-23",
+      "id": 5
+    },
+    {
+      "date": "2022-03-30",
+      "concept": "Register and Login ",
+      "entry": "Learned about logging in and registering a user and saving his/her information in the browser session and the database.",
+      "mood": "Happy",
+      "userId": 3,
+      "timestamp": 1648675875160,
+      "id": 7
+    },
+    {
+      "date": "2022-03-17",
+      "concept": "Single Page App",
+      "entry": "Learned how to render on DOM using JS. Update the same page with new information, no redirection to another page.",
+      "mood": "Sad",
+      "userId": 1,
+      "timestamp": 1648693920486,
+      "id": 8
+    },
+    {
+      "date": "2022-03-08",
+      "concept": "Dev Tools",
+      "entry": "Learned how to use Google chrome dev tools to debug code.",
+      "mood": "OK",
+      "userId": 2,
+      "timestamp": 1648694174275,
+      "id": 9
+    },
+    {
+      "date": "2022-03-10",
+      "concept": "Helper Functions",
+      "entry": "Learned how to write shortcode using helper functions that can be used independently.",
+      "mood": "Happy",
+      "userId": 3,
+      "timestamp": 1648694265002,
+      "id": 10
+    }
+  ]
+}

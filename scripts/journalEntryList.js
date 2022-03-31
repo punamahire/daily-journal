@@ -5,7 +5,7 @@
  *    data module component
  */
 import { getJournalEntries } from "./journalData.js"
-import { journalEntry } from "./journalEntry.js";
+import { journalEntry, entry } from "./journalEntry.js";
 
 export const journalEntryList = () => {
     const entryLog = document.querySelector("#entryLog")
@@ -17,4 +17,12 @@ export const journalEntryList = () => {
         entryHTMLRepresentation += `${journalEntry(entry)}`
     }
     entryLog.innerHTML += `${entryHTMLRepresentation}`
+}
+
+export const entryList = (allEntries) => {
+    let entryHTML = "";
+    for (const entryObj of allEntries) {
+        entryHTML += entry(entryObj)
+    }
+    return entryHTML
 }

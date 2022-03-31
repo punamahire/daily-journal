@@ -48,3 +48,7 @@ export const getJournalEntries = () => {
     )
     return sortedByDate
 }
+
+// export const formatDate = () => {
+//     console.log(journal[0].date.toLocalString())
+// }
